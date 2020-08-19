@@ -1,7 +1,9 @@
 guiapp
 ======
 
-A template GUI appl 
+A template GUI application
+
+For more guidance see https://docs.racket-lang.org/gui/index.html
 
 Other examples of GUI apps are the 7GUI benchmarks and the games collection included in the Racket distribution 
 
