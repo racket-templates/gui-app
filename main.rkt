@@ -4,26 +4,15 @@
   (require rackunit))
 
 ;; Notice
-;; To create an executable 
-;;   $ raco exe -o hello hello.rkt
+;; To create an executable see https://docs.racket-lang.org/raco/exe.html
 ;; 
-;; see https://docs.racket-lang.org/raco/exe.html
-;; 
-;; To share stand-alone executables:
-;;   $ raco distribute <directory> executable ... 
-;; 
-;; e.g
-;;   $ raco distribute greetings hello.exe
+;; To share stand-alone executables see https://docs.racket-lang.org/raco/exe-dist.html
 ;;
-;; creates a directory "greetings" (if the directory doesn’t exist already),
-;; and it copies the executables "hello.exe" and "goodbye.exe" into "greetings".
-;; 
-;; see https://docs.racket-lang.org/raco/exe-dist.html
-
-
+;;
 ;; This code is a modernised version of the code for the paper
 ;; Programming Languages as Operating Systems (1999)
 ;; https://www2.ccs.neu.edu/racket/pubs/icfp99-ffkf.pdf
+;; It is provided with permission of author Matthew Flatt
 
 ;; The repl editor class
 (define esq-text%
