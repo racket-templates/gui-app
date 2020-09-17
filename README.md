@@ -1,5 +1,5 @@
-guiapp
-======
+gui-app
+=======
 
 A template GUI application
 
