@@ -1,5 +1,5 @@
 #lang info
-(define collection "guiapp")
+(define collection "gui-app")
 (define deps '("base"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
 (define scribblings '(("scribblings/guiapp.scrbl" ())))
