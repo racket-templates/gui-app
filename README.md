@@ -3,6 +3,24 @@ gui-app
 
 A template GUI application
 
+# How To Install
+
+1. [Set your PATH environment variable](https://github.com/racket/racket/wiki/Set-your-PATH-environment-variable) 
+so you can use `raco` and other Racket command line functions.
+2. either look for `from-template` in the DrRacket menu **File|Package Manager**, or run the `raco` command:
+```bash
+raco pkg install from-template
+```
+3. 
+```bash
+raco new gui-app <destination-dir>
+```
+If you omit `<destination-dir>`, the command will add copy the template to a folder called `gui-app` in the current folder.
+
+# How to use
+
+This is working example that you can change to suit your needs.
+
 For more guidance see https://docs.racket-lang.org/gui/index.html
 
 Other examples of GUI apps are the 7GUI benchmarks and the games collection included in the Racket distribution 
